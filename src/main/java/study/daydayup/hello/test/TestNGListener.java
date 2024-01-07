@@ -13,8 +13,8 @@ public class TestNGListener extends TestListenerAdapter {
         super.onTestSuccess(iTestResult);
 
         //对于dataProvider的用例，每次成功后，重置Retry次数
-        Retry retry = (Retry) iTestResult.getMethod().getRetryAnalyzer(iTestResult);
-        retry.reset();
+//        Retry retry = (Retry) iTestResult.getMethod().getRetryAnalyzer(iTestResult);
+//        retry.reset();
     }
 
     @Override
@@ -22,8 +22,8 @@ public class TestNGListener extends TestListenerAdapter {
         super.onTestFailure(iTestResult);
 
         //对于dataProvider的用例，每次成功后，重置Retry次数
-        Retry retry = (Retry) iTestResult.getMethod().getRetryAnalyzer(iTestResult);
-        retry.reset();
+//        Retry retry = (Retry) iTestResult.getMethod().getRetryAnalyzer(iTestResult);
+//        retry.reset();
     }
 
     @Override

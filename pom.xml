@@ -11,14 +11,16 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
+
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.6.0</version>
+            <version>7.7.0</version>
         </dependency>
+
 
     </dependencies>
 </project>
