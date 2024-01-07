@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HelloSuite">
+    <groups>
+        <run>
+            <include name="hello" />
+        </run>
+    </groups>
+
+    <test verbose="1" preserve-order="true" name="HelloWorld">
+        <classes>
+            <class name="study.daydayup.hello.testng.HelloTestNGTest" />
+        </classes>
+    </test>
+</suite>
